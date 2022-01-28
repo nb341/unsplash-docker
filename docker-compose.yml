@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+    backend: 
+        container_name: unsplash-backend
+        build: ./backend
+        volumes:
+          - ./backend:/app/backend
+        ports: 
+            - 5000:5000
+    frontend:
+        container_name: unsplash-frontend
+        build: ./frontend
+        volumes:
+          - /app/frontend/node_modules
+          - ./frontend:/app/frontend
+        ports:
+            - 3000:3000
