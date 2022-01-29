@@ -33,9 +33,6 @@ export default function MasonryLayout(){
         height: 583
     };
     const {one, two, three} = configureLayout(links, colOneImgSize, colTwoImgSize)
-    // const [colOne, setColOne] = useState(initialState);
-    // const [colTwo, setColTwo] = useState(initialState);
-    // const [colThree, setColThree] = useState(initialState);
 
    
            
