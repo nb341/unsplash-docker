@@ -5,7 +5,7 @@ var router = express.Router();
 
 
 router.get('/images', (req, res, next)=>{
-  res.json({msg: "kkello"})
+  res.json({msg: "ello"})
 })
 
 router.post('/images', (req, res, next)=>{
